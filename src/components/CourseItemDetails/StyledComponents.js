@@ -22,10 +22,19 @@ export const CourseItemDetailsSuccessContent = styled.div`
   display: flex;
   flex-direction: row;
   box-shadow: 2px 2px 10px 5px #f1f5f9;
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
 `
 
 export const CourseItemDetailsImg = styled.img`
   width: 40%;
+
+  @media screen and (max-width: 767px) {
+    align-self: center;
+    width: 100%;
+  }
 `
 
 export const CourseItemDetailsTitleWithDescription = styled.div`
